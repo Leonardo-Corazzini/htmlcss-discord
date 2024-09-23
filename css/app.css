@@ -137,7 +137,13 @@ img {
     background-image: url(../img/item2.svg);
     background-size: cover;
 }
-
+.fourth-section{
+    background-image: url(../img/item3.svg);
+    background-size: cover;
+}
+fifth-section{
+    
+}
 /* footer style */
 .section-layout-6,.section-layout-7{
     background-color: rgb(61, 59, 59);
