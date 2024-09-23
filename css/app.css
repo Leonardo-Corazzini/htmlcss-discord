@@ -143,7 +143,14 @@ img {
 }
 .fifth-section{
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
 
+}
+.download-section{
+    flex-direction: column;
+    align-items: center;
 }
 /* footer style */
 .section-layout-6,.section-layout-7{
