@@ -141,8 +141,9 @@ img {
     background-image: url(../img/item3.svg);
     background-size: cover;
 }
-fifth-section{
-    
+.fifth-section{
+    flex-direction: column;
+
 }
 /* footer style */
 .section-layout-6,.section-layout-7{
