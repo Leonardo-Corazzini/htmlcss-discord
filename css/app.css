@@ -22,12 +22,12 @@ img {
 }
 /* LAYOUT */
 .conteiner{
-    width: 900px;
+    width: 1100px;
     margin: 0 auto;
     padding: 20px;
 }
 .footer-conteiner{
-    width: 900px;
+    width: 1100px;
     margin: 0 auto;
     padding: 5px 20px 20px ;
 }
@@ -37,7 +37,7 @@ img {
 }
 .col-80{
     
-    min-height: 300px;
+    min-height: 420px;
     flex-basis: 80%;
     color: white;
     display: flex;
@@ -48,22 +48,22 @@ img {
 
 }
 .col-66{
-    border: 1px solid red;
+    
     min-height: 350px;
     flex-basis: calc(100% / 3*2);
     
 }
 .col-33{
-    border: 1px solid red;
+    
     min-height: 350px;
     flex-basis: calc(100% / 3);
     
 }
 .col-100{
     min-height: 500px;
-    border: 1px solid red;
+    
     flex-basis: 100%;
-    background-color: green;
+
 }
 .col-32{
     
@@ -116,6 +116,15 @@ img {
   
 }
 /* MAIN STYLE */
+.section-layout-2,
+.section-layout-3,
+.section-layout-4{
+    margin-bottom: 200px;
+}
+.section-layout-1,
+.section-layout-5{
+    margin-bottom: 75px;
+}
 .section-title{
     font-size: 40px;
 }
@@ -125,12 +134,13 @@ img {
 }
 .section-layout-1 .row{
     justify-content: center;
+    padding 150px 0px;
 }
 .section-layout-2,.section-layout-4{
     background-color: white;
 }
 .section-layout-3,.section-layout-5{
-    background-color: pink;
+   
 }
 .second-section{
     background-image: url(../img/item1.svg);
