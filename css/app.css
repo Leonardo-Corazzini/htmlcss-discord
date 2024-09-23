@@ -73,9 +73,9 @@ img {
     background-color: rgb(122, 122, 247);
 }
 .row.navbar{
-    justify-content: center;
+    justify-content: space-around;
    align-items: center;
-   min-height: 50px;
+   
 }
 .navbar > *{
     border: 1px solid blue;
@@ -83,17 +83,17 @@ img {
     
 }
 .logo{
-    flex-grow: 1;
+    
 }
 .cta{
-    flex-grow: 1;
-    text-align: end;
+    
+
 }
 .main-menu{
     display: flex;
     justify-content: space-between;
-    gap:20px ;
-    flex-grow: 2;
+    gap: 30px ;
+  
 }
 /* MAIN STYLE */
 .section-layout-1{
