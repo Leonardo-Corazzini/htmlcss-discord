@@ -116,6 +116,9 @@ img {
   
 }
 /* MAIN STYLE */
+.section-title{
+    font-size: 40px;
+}
 .section-layout-1{
     background-image: url(../img/jumbo.png);
     background-size: cover;
