@@ -129,10 +129,15 @@ img {
 .section-layout-3,.section-layout-5{
     background-color: pink;
 }
-.first-section{
+.second-section{
     background-image: url(../img/item1.svg);
     background-size: cover;
 }
+.third-section{
+    background-image: url(../img/item2.svg);
+    background-size: cover;
+}
+
 /* footer style */
 .section-layout-6,.section-layout-7{
     background-color: rgb(61, 59, 59);
