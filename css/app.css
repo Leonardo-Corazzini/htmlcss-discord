@@ -37,43 +37,35 @@ img {
 }
 .col-80{
     
-    min-height: 420px;
-    flex-basis: 80%;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-
-}
+   flex-basis: 80%; 
+    }
 .col-66{
     
-    min-height: 350px;
+    
     flex-basis: calc(100% / 3*2);
     
 }
 .col-33{
     
-    min-height: 350px;
+    
     flex-basis: calc(100% / 3);
     
 }
 .col-100{
-    min-height: 500px;
+    
     
     flex-basis: 100%;
 
 }
 .col-32{
     
-    min-height: 350px;
+   
     
     flex-basis: calc(100% /6*2);
 }
 .col-16{
     
-    min-height: 350px;
+    
     
     flex-basis: calc(100% / 6);
 }
@@ -122,6 +114,21 @@ img {
   
 }
 /* MAIN STYLE */
+.hero{
+    text-align: center;
+    padding: 100px 0px;
+    color: white;
+}
+.text{
+    text-align: center;
+    padding: 30px;
+}
+.pd-bottom200{
+    padding-bottom: 200px;
+}
+.pd-bottom50{
+    padding-bottom: 50px;
+}
 .section-layout-2,
 .section-layout-3,
 .section-layout-4{
@@ -135,6 +142,7 @@ img {
 }
 .section-title{
     font-size: 40px;
+    padding-bottom: 30px;
 }
 .section-layout-1{
     background-image: url(../img/jumbo.png);
@@ -148,7 +156,7 @@ img {
     background-color: white;
 }
 .section-layout-3,.section-layout-5{
-   background-color: rgb(182, 178, 178);
+   background-color: rgb(245, 234, 234);
 }
 .second-section{
     background-image: url(../img/item1.svg);
@@ -163,16 +171,20 @@ img {
     background-size: cover;
 }
 .fifth-section{
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    gap: 50px;
+   text-align: center; 
+   
+    
+  
 
 }
 .download-section{
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
+    text-align: center;
+}
+.download-section strong{
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    
+    font-size: 30px;
 }
 /* footer style */
 .section-layout-6,.section-layout-7{
@@ -194,3 +206,25 @@ img {
     padding: 30px;
     color: white;
 }
+h4,h3{
+    font-size: 30px;
+}
+.blue{
+    color:  rgb(154, 73, 247);;
+}
+.ita{
+    width: 30px;
+    height: 20px;
+}
+
+/* .section-layout-3::before{
+    background-image: url(../img/wave.svg);
+    background-repeat: repeat;
+    width: 100%;
+    position: absolute;
+    content: ".";
+    color: rgb(245, 234, 234);;
+    
+
+    
+} */
