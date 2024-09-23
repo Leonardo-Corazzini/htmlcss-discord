@@ -66,15 +66,15 @@ img {
     background-color: green;
 }
 .col-32{
-    background-color: coral;
+    
     min-height: 350px;
-    border: 1px solid red;
+    
     flex-basis: calc(100% /6*2);
 }
 .col-16{
-    background-color: pink;
+    
     min-height: 350px;
-    border: 1px solid red;
+    
     flex-basis: calc(100% / 6);
 }
 
@@ -164,4 +164,11 @@ img {
 }
 .section-layout-7 .footer-conteiner{
     padding: 10px 20px 0px;
+}
+.row.contact{
+    border-bottom: 1px solid blue;
+}
+.contact > div{
+    padding: 30px;
+    color: white;
 }
